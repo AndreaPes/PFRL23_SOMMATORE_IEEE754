@@ -1,11 +1,9 @@
-# SOMMATORE IEEE754
+# Progetto: Sommatore Floating-Point IEEE754
 
-<p align="center">
-  <img width="100%" src="https://i.imgur.com/tm9mSuM.png" alt="header" />
-</p>
+---
 
-## Description
+### Descrizione del Progetto
 
-An Integer divider in VHDL done from scratch with basic components.
-
-Repository of the project developed for the "Final project in Digital Logic Design" course, part of the Bachelor of Science in Engineering of Computing System at Politecnico di Milano.
+Il progetto consiste nella realizzazione di un sommatore floating-point conforme allo standard IEEE754. Il sommatore è in grado di gestire sia operandi normalizzati che non normalizzati, e opzionalmente gli operandi speciali come NaN (Not a Number) e Infinity.  
+Il sommatore è realizzato mediante un'architettura pipelined.  
+Il componente è stato testato con opportuni test-bench per la simulazione e la verifica del corretto funzionamento del sommatore in diversi casi.
