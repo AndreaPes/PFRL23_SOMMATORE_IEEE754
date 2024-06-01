@@ -1,9 +1,9 @@
-# Progetto: Sommatore Floating-Point IEEE754
+# Project: IEEE754 Floating-Point Adder
 
 ---
 
-### Descrizione del Progetto
+### Project Description
 
-Il progetto consiste nella realizzazione di un sommatore floating-point conforme allo standard IEEE754. Il sommatore è in grado di gestire sia operandi normalizzati che non normalizzati, e opzionalmente gli operandi speciali come NaN (Not a Number) e Infinity.  
-Il sommatore è realizzato mediante un'architettura pipelined.  
-Il componente è stato testato con opportuni test-bench per la simulazione e la verifica del corretto funzionamento del sommatore in diversi casi.
+This project involves creating a floating-point adder that adheres to the IEEE754 standard. The adder can handle both normalized and denormalized operands, as well as special cases such as NaN (Not a Number) and Infinity.  
+It is implemented using a pipelined architecture.  
+The component has been tested using appropriate test benches to ensure its correct operation in various scenarios.
